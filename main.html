@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'KintexL';
+    src: url('./fonts/KintexL/GoyangIlsan_L.woff2') format(‘woff2’), 
+         url('./fonts/KintexL/GoyangIlsan_L.ttf') format('truetype'),
+         url('./fonts/KintexL/GoyangIlsan_L.woff') format(‘woff’),
+         url('./fonts/KintexR/GoyangIlsan_L.eot?#iefix') format('embedded-opentype');
+}
+@font-face{
+    font-family: 'KintexR';
+    src: url('./fonts/KintexR/GoyangIlsanR-Regular.woff2') format(‘woff2’),
+         url('./fonts/KintexR/GoyangIlsanR-Regular.ttf') format('truetype'),
+         url('./fonts/KintexR/GoyangIlsanR-Regular.woff') format(‘woff’), 
+         url('./fonts/KintexR/GoyangIlsanR-Regular.eot?#iefix') format('embedded-opentype');
+}
+div {
+    font-family: 'KintexL';
+    font-weight: normal;
+    font-style: normal;
+}
+div {
+    font-family: 'KintexR';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'KintexL', 'KintexR', Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 64px;
+  text-align: center;
+}
+
+ysleft {
+    float: left;
+    width: 584px;
+    height: 32px;
+    background: white;
+    padding: 0px;
+}
+
+ystext {
+    float: left;
+    width: fit-content;
+    height: 32px;
+    background: white;
+    padding: 0px;
+}
+
+wleft {
+  float: left;
+  width: 192px;
+  height: 192%; 
+  background: white;
+  padding: 16px;
+}
+
+wpink {
+    float: left;
+    width: 328px;
+    height: 256px;
+    background: #F48FB1;
+    padding-left: 32px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+article {
+  float: left;
+  width: 480px;
+  height: 240px;
+  background-color: white;
+  padding-left: 64px;
+  padding-right: 16px;
+  padding-top: 0px;
+  padding-bottom: 16px;
+}
+
+wright {
+  float: left;
+  width: 17%;
+  height: 192%; 
+  background: white;
+  padding: 16px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #e91e63;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+/* 반응형으로 창이 작아지면 레이아웃이 자동정렬 됩니다. */
+@media (max-width: 600px) {
+  wleft, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+
+<body>
+<header>
+</header>
+
+<section>
+    <ysleft>
+    </ysleft>
+    <ystext>
+        <span style="font-family: 'KintexR'; font-size: 16px;">Y　O　U　S　A　N　G　　　P　A　R　K</span>
+    </ystext>
+</section>
+
+<section>
+  <wleft>
+    <span style="font-family: 'KintexR'; font-size: 32px; color: #9e9e9e;"> 텅 맥</br>주있는 공</br>간 </span>
+  </wleft>
+  
+  <wpink>
+      <span style="font-family: 'KintexR'; font-size: 96px; color: white;"> 조금씩, </br>앞으로. </span>
+  </wpink>
+  <article>
+    <span style="font-family: 'KintexR'; font-size: 48px; color: black;">박유상 </span>
+    <span style="font-family: 'KintexL'; font-size: 40px; color: black;">Edward* </span>
+    <p><span style="font-size: 20px">한양대학교 ERICA 인공지능학과 학부과정</span></p>
+    <p><span style="font-size: 20px">eddylily00@gmail.com</span></p>
+  </article>
+
+<!--  <wright>
+    <span style="font-family: KintexR; font-size: 32px; color: #9e9e9e; float: right;"> 텅 맥</br>주있는 공</br>간 </span>
+  </wright> -->
+</section>
+
+<footer>
+  <p>©2009-2022 Yousang Park, Edward*</p>
+</footer>
+
+</body>
+
+</html>
