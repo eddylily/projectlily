@@ -82,6 +82,7 @@ btn_more {
   height: 96px;
   background: #F48FB1;
   padding: 16px;
+  display: block;
 }
 
 btn_blog {
@@ -93,6 +94,7 @@ btn_blog {
   height: 96px;
   background: #f06292;
   padding: 16px;
+  display: block;
 }
 
 btn_blog > img {
@@ -112,6 +114,7 @@ btn_twitter {
   height: 96px;
   background: #ec407a;
   padding: 16px;
+  display: block;
 }
 
 btn_twitter > img {
@@ -131,7 +134,9 @@ btn_github {
   height: 96px;
   background: #e91e63;
   padding: 16px;
+  display: block;
 }
+
 
 btn_github > img {
   position: absolute;
@@ -187,15 +192,24 @@ footer {
 </section>
 
 <section>
-  <btn_github>
-    <img src="icons/picon_github.png" alt="GitHub" style="display: block; margin: 0 auto; width: 64px; height: 64px">
-  </btn_github>
-  <btn_twitter>
-    <img src="icons/picon_twitter.png" alt="Twitter" style="display: block; margin: 0 auto; width: 64px; height: 64px">
-  </btn_twitter>
-  <btn_blog>
-    <img src="icons/picon_blog.png" alt="Blog" style="display: block; margin: 0 auto; width: 72px; height: 72px">
-  </btn_blog>
+  <a href="https://github.com/eddylily">
+    <btn_github>
+      <img src="icons/picon_github.png" alt="GitHub" style="display: block; margin: 0 auto; width: 64px; height: 64px">
+    </btn_github>
+  </a>
+
+  <a href="https://twitter.com/eddylily00">
+    <btn_twitter>
+      <img src="icons/picon_twitter.png" alt="Twitter" style="display: block; margin: 0 auto; width: 64px; height: 64px">
+    </btn_twitter>
+  </a>
+
+  <a href="https://blog.edward.moe/">
+    <btn_blog>
+      <img src="icons/picon_blog.png" alt="Blog" style="display: block; margin: 0 auto; width: 72px; height: 72px">
+    </btn_blog>
+  </a>
+  
   <btn_more>
   </btn_more>
 </section>
