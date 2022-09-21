@@ -47,7 +47,7 @@ article {
   left: 50%;
   width: 480px;
   height: 256px;
-  padding-left: 64px;
+  padding-left: 16px;
   padding-right: 16px;
   padding-top: 48px;
   padding-bottom: 16px;
@@ -56,7 +56,8 @@ article {
 wpink {
   position: absolute;
   right: 50%;
-  width: 384px;
+  transform: translateX(-64px);
+  width: 352px;
   height: 256px;
   background: #F48FB1;
   padding-left: 32px;
@@ -65,10 +66,22 @@ wpink {
   padding-bottom: 16px;
 }
 
+btn_more {
+  position: absolute;
+  top: 384px;
+  right: 50%;
+  transform: translateX(360px);
+  width: 384px;
+  height: 96px;
+  background: #F48FB1;
+  padding: 16px;
+}
+
 btn_blog {
   position: absolute;
   top: 384px;
   right: 50%;
+  transform: translateX(-64px);
   width: 96px;
   height: 96px;
   background: #f06292;
@@ -79,7 +92,7 @@ btn_twitter {
   position: absolute;
   top: 384px;
   right: 50%;
-  transform: translateX(-128px);
+  transform: translateX(-192px);
   width: 96px;
   height: 96px;
   background: #ec407a;
@@ -90,18 +103,10 @@ btn_github {
   position: absolute;
   top: 384px;
   right: 50%;
-  transform: translateX(-256px);
+  transform: translateX(-320px);
   width: 96px;
   height: 96px;
   background: #e91e63;
-  padding: 16px;
-}
-
-btn_more {
-  float: left;
-  width: 328px;
-  height: 96px;
-  background: #F48FB1;
   padding: 16px;
 }
 
@@ -112,8 +117,12 @@ section:after {
 }
 
 footer {
-  background-color: #e91e63;
-  padding: 32px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 96px;
+  padding: 16px;
+  background: #e91e63;
   text-align: center;
   color: white;
 }
