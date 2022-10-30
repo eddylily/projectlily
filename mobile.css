@@ -93,7 +93,7 @@
     position: absolute;
     top: 352px;
     left: 48px;
-    width: 640px;
+    width: 480px;
     height: 224px;
     padding-left: 0px;
     padding-right: 16px;
@@ -203,7 +203,7 @@
     top: 868px;
     left: 48px;
     border-top: 2px solid #757575;
-    width: 320px;
+    width: 368px;
   }
   
   /* * * * * * * * */
@@ -212,7 +212,7 @@
     position: absolute;
     top: 900px;
     left: 16px;
-    width: 720px;
+    width: 416px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -222,7 +222,7 @@
     position: absolute;
     top: 948px;
     left: 32px;
-    width: 720px;
+    width: 416px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -243,7 +243,7 @@
     position: absolute;
     top: 1084px;
     left: 16px;
-    width: 720px;
+    width: 416px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -253,7 +253,7 @@
     position: absolute;
     top: 1132px;
     left: 32px;
-    width: 720px;
+    width: 416px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -274,7 +274,7 @@
     position: absolute;
     top: 1268px;
     left: 16px;
-    width: 720px;
+    width: 416px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -284,7 +284,7 @@
     position: absolute;
     top: 1316px;
     left: 32px;
-    width: 720px;
+    width: 416px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -305,7 +305,7 @@
     position: absolute;
     top: 1580px;
     left: 16px;
-    width: 720px;
+    width: 416px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -315,7 +315,7 @@
     position: absolute;
     top: 1628px;
     left: 32px;
-    width: 720px;
+    width: 416px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -336,7 +336,7 @@
     position: absolute;
     top: 1868px;
     left: 48px;
-    width: 640px;
+    width: 416px;
     height: 96px;
   }
   
