@@ -43,6 +43,7 @@ img {
 body {
   font-family: 'KintexL', 'KintexR', Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, #FFFFFF 752px, #f8bbd0 1920px);
+  color: #000000;
 }
 
 header {
@@ -444,7 +445,7 @@ footer {
   <eeducontents>
       <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://aix.hanyang.ac.kr/">한양대학교 ERICA 인공지능학과 </a></span>
       <span style="font-family: 'KintexL'; font-size: 18px">학부과정 </span>
-      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2021. 3. ~ 휴학중</span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2021. 3. ~ </span>
       <p></p>
       <span style="font-family: 'KintexR'; font-size: 18px"><a href="http://8793.io/">8793(스타트업) </a></span>
       <span style="font-family: 'KintexL'; font-size: 18px">Android 앱 개발 교육 (Java) </span>
@@ -482,12 +483,12 @@ footer {
       <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://github.com/eddylily/absorber">Absorber (Android) </a></span>
       <span style="font-family: 'KintexR'; font-size: 18px; color: #e64a19">(Java) </span>
       <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2022. 1.</span><br>
-      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">어려운 문제나 아이디어 등을 사진으로 찍어 언제든 열어보고 고민할 수 있는 앱 </span>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- 어려운 문제나 아이디어 등을 사진으로 찍어 언제든 열어보고 고민할 수 있는 앱 </span>
       <br><br>
       <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://github.com/eddylily/WeatherTest-8793">날씨 알림 앱 (Android) </a></span>
       <span style="font-family: 'KintexR'; font-size: 18px; color: #e64a19">(Java) </span>
       <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2019. 7.</span><br>
-      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- 8793(스타트업)에서 배운 내용을 토대로 만든 앱 </span>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- 8793(스타트업)에서 배운 것을 토대로 만든 앱 </span>
   </eexpscontents>
 </section>
 
@@ -509,7 +510,14 @@ footer {
 </section>
 
 <efooter>
-  <div style="font-family: 'KintexR'; font-size: 18px; color: #757575">©2009-2022 Yousang Park, Edward*</div>
+  <span style="font-family: 'KintexR'; font-size: 18px; color: #757575">© 2009 -</span>
+  <span id="current_year" style="font-family: 'KintexR'; font-size: 18px; color: #757575">
+    <script>
+      date = new Date();
+      year = date.getFullYear();
+      document.getElementById("current_year").innerHTML = year;
+    </script></span>
+  <span style="font-family: 'KintexR'; font-size: 18px; color: #757575">Yousang Park, Edward*</span>
 </efooter>
 
 </body>
