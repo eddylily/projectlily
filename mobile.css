@@ -208,7 +208,7 @@
   eedu {
     position: absolute;
     top: 900px;
-    left: 48px;
+    left: 16px;
     width: 960px;
     height: 32px;
     padding: 16px;
@@ -218,7 +218,7 @@
   eeducontents {
     position: absolute;
     top: 948px;
-    left: 64px;
+    left: 32px;
     width: 960px;
     height: 540px;
     padding: 16px;
@@ -228,7 +228,7 @@
   eeduline {
     position: absolute;
     top: 948px;
-    left: 48px;
+    left: 16px;
     border-left: thick solid #e91e63;
     height: 88px;
     transform: translate(16px, 8px);
@@ -239,7 +239,7 @@
   eachs {
     position: absolute;
     top: 1084px;
-    left: 48px;
+    left: 16px;
     width: 960px;
     height: 32px;
     padding: 16px;
@@ -249,7 +249,7 @@
   eachscontents {
     position: absolute;
     top: 1132px;
-    left: 64px;
+    left: 32px;
     width: 960px;
     height: 540px;
     padding: 16px;
@@ -259,7 +259,7 @@
   eachsline {
     position: absolute;
     top: 1132px;
-    left: 48px;
+    left: 16px;
     border-left: thick solid #e91e63;
     height: 88px;
     transform: translate(16px, 8px);
@@ -270,7 +270,7 @@
   eexps {
     position: absolute;
     top: 1268px;
-    left: 48px;
+    left: 16px;
     width: 960px;
     height: 32px;
     padding: 16px;
@@ -280,7 +280,7 @@
   eexpscontents {
     position: absolute;
     top: 1316px;
-    left: 64px;
+    left: 32px;
     width: 960px;
     height: 540px;
     padding: 16px;
@@ -290,7 +290,7 @@
   eexpsline {
     position: absolute;
     top: 1316px;
-    left: 48px;
+    left: 16px;
     border-left: thick solid #e91e63;
     height: 216px;
     transform: translate(16px, 8px);
@@ -301,7 +301,7 @@
   epast {
     position: absolute;
     top: 1580px;
-    left: 48px;
+    left: 16px;
     width: 960px;
     height: 32px;
     padding: 16px;
@@ -311,7 +311,7 @@
   epastcontents {
     position: absolute;
     top: 1628px;
-    left: 64px;
+    left: 32px;
     width: 960px;
     height: 540px;
     padding: 16px;
@@ -321,7 +321,7 @@
   epastline {
     position: absolute;
     top: 1628px;
-    left: 48px;
+    left: 16px;
     border-left: thick solid #e91e63;
     height: 144px;
     transform: translate(16px, 8px);
