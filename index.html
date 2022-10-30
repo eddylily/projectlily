@@ -42,7 +42,7 @@ img {
 
 body {
   font-family: 'KintexL', 'KintexR', Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #FFFFFF 39%, #f8bbd0);
+  background: linear-gradient(to right, #FFFFFF 39%, #f8bbd0 100%, #f8bbd0 400%);
 }
 
 header {
@@ -83,18 +83,18 @@ langchange {
 epinkbox {
   position: absolute;
   left: 64px;
-  width: 288px;
-  height: 224px;
+  width: 320px;
+  height: 240px;
   background: #F48FB1;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 20px;
+  padding-top: 22px;
   padding-bottom: 16px;
 }
 
 ename {
   position: absolute;
-  left: 376px;
+  left: 416px;
   width: 640px;
   height: 224px;
   padding-left: 16px;
@@ -105,16 +105,18 @@ ename {
 
 esign {
   position: absolute;
-  top: 368px;
+  top: 400px;
   left: 64px;
-  width: 288px;
-  height: 162px;
+  width: 320px;
+  height: 180px;
 }
+
+/* * * * * * * * */
 
 btn_github {
   position: absolute;
-  top: 384px;
-  left: 376px;
+  top: 408px;
+  left: 416px;
   width: 96px;
   height: 96px;
   background: #f06292;
@@ -142,8 +144,8 @@ btn_github > span {
 
 btn_twitter {
   position: absolute;
-  top: 384px;
-  left: 496px;
+  top: 408px;
+  left: 536px;
   width: 96px;
   height: 96px;
   background: #f06292;
@@ -171,8 +173,8 @@ btn_twitter > span {
 
 btn_blog {
   position: absolute;
-  top: 384px;
-  left: 616px;
+  top: 408px;
+  left: 656px;
   width: 96px;
   height: 96px;
   background: #f06292;
@@ -198,10 +200,51 @@ btn_blog > span {
   text-align: center;
 }
 
+edivider {
+  position: absolute;
+  top: 576px;
+  left: 64px;
+  border-top: 2px solid #757575;
+  width: 688px;
+}
+
+/* * * * * * * * */
+
+eedu {
+  position: absolute;
+  top: 608px;
+  left: 96px;
+  width: 960px;
+  height: 32px;
+  padding: 16px;
+  line-height: 24px;
+}
+
+eeducontents {
+  position: absolute;
+  top: 656px;
+  left: 112px;
+  width: 960px;
+  height: 540px;
+  padding: 16px;
+  line-height: 24px;
+}
+
+eeduline {
+  position: absolute;
+  top: 656px;
+  left: 96px;
+  border-left: thick solid #e91e63;
+  height: 88px;
+  transform: translate(16px, 8px);
+}
+
+/* * * * * * * * */
+
 eachs {
   position: absolute;
-  top: 568px;
-  left: 128px;
+  top: 792px;
+  left: 96px;
   width: 960px;
   height: 32px;
   padding: 16px;
@@ -210,21 +253,93 @@ eachs {
 
 eachscontents {
   position: absolute;
-  top: 608px;
-  left: 144px;
+  top: 840px;
+  left: 112px;
   width: 960px;
   height: 540px;
   padding: 16px;
   line-height: 24px;
 }
 
-aline {
+eachsline {
   position: absolute;
-  top: 568px;
-  left: 128px;
+  top: 840px;
+  left: 96px;
   border-left: thick solid #e91e63;
+  height: 88px;
+  transform: translate(16px, 8px);
+}
+
+/* * * * * * * * */
+
+eexps {
+  position: absolute;
+  top: 976px;
+  left: 96px;
+  width: 960px;
+  height: 32px;
+  padding: 16px;
+  line-height: 24px;
+}
+
+eexpscontents {
+  position: absolute;
+  top: 1024px;
+  left: 112px;
+  width: 960px;
+  height: 540px;
+  padding: 16px;
+  line-height: 24px;
+}
+
+eexpsline {
+  position: absolute;
+  top: 1024px;
+  left: 96px;
+  border-left: thick solid #e91e63;
+  height: 216px;
+  transform: translate(16px, 8px);
+}
+
+/* * * * * * * * */
+
+epast {
+  position: absolute;
+  top: 1288px;
+  left: 96px;
+  width: 960px;
+  height: 32px;
+  padding: 16px;
+  line-height: 24px;
+}
+
+epastcontents {
+  position: absolute;
+  top: 1336px;
+  left: 112px;
+  width: 960px;
+  height: 540px;
+  padding: 16px;
+  line-height: 24px;
+}
+
+epastline {
+  position: absolute;
+  top: 1336px;
+  left: 96px;
+  border-left: thick solid #e91e63;
+  height: 144px;
+  transform: translate(16px, 8px);
+}
+
+/* * * * * * * * */
+
+efooter {
+  position: absolute;
+  top: 1576px;
+  left: 96px;
+  width: 640px;
   height: 96px;
-  transform: translate(16px, 48px);
 }
 
 section:after {
@@ -237,7 +352,7 @@ footer {
   position: absolute;
   bottom: 0%;
   width: 104%;
-  height: 128px;
+  height: 32px;
   transform: translateX(-4%);
   padding: 16px;
   background: #f06292;
@@ -264,30 +379,30 @@ footer {
 
 <section>
   <epinkbox>
-    <span style="font-family: 'KintexR'; font-size: 84px; color: white;"> 조금씩, </br>앞으로. </span></epinkbox>
+    <span style="font-family: 'KintexR'; font-size: 90px; color: #ffffff;"> 조금씩, </br>앞으로. </span></epinkbox>
   <ename>
-    <div style="font-family: 'KintexR'; font-size: 18px; letter-spacing: 12px; line-height: 36px;">YOUSANG PARK</div>
+    <div style="font-family: 'KintexR'; font-size: 18px; letter-spacing: 12px; line-height: 36px">YOUSANG PARK</div>
     <div>
       <span style="font-family: 'KintexR'; font-size: 56px;">박유상</span>
       <span style="font-family: 'KintexR'; font-size: 20px;">　</span>
       <span style="font-family: 'KintexL'; font-size: 48px">Edward*</span>
     </div>
-  <div style="font-family: 'KintexR'; font-size: 24px; color:#e91e63; letter-spacing: 3px; line-height: 40px">이것저것 하는 개발자 지망생</div>
-  <div>
-    <span style="font-family: 'KintexL'; font-size: 16px;">🎓 </span>
-    <span style="font-family: 'KintexL'; font-size: 16px; color:#e91e63"><a href="https://aix.hanyang.ac.kr/">한양대학교 ERICA 인공지능학과 </a></span>
-    <span style="font-family: 'KintexL'; font-size: 16px;">학부과정</span>
+  <!-- <div style="font-family: 'KintexR'; font-size: 24px; letter-spacing: 3px; line-height: 40px">이것저것 하는 개발자 지망생</div> -->
+  <div style="font-family: 'KintexR'; font-size: 18px; line-height: 72px;">
+    <span style="font-family: 'KintexL'; font-size: 18px;">🎓 </span>
+    <span style="font-family: 'KintexL'; font-size: 18px; color:#e91e63"><a href="https://aix.hanyang.ac.kr/">한양대학교 ERICA 인공지능학과 </a></span>
+    <span style="font-family: 'KintexL'; font-size: 18px;">학부과정</span>
     </div>
-  <div>
-    <span style="font-family: 'KintexL'; font-size: 16px">✉️ </span>
-    <span style="font-family: 'KintexL'; font-size: 16px; color:#e91e63"><a href="mailto:eddylily00@gmail.com">eddylily00@gmail.com</a></span>
+  <div style="font-family: 'KintexR'; font-size: 18px; line-height: 0px;">
+    <span style="font-family: 'KintexL'; font-size: 18px">✉️ </span>
+    <span style="font-family: 'KintexL'; font-size: 18px; color:#e91e63"><a href="mailto:eddylily00@gmail.com">eddylily00@gmail.com</a></span>
   </div>
 </ename>
 </section>
 
 <section>
   <esign>
-    <img src="icons/eddylily_sign.png" style="display: block; margin: 0 auto; width: 100%; height: 100%">
+    <img src="icons/eddylily_sign.png" style="display: block; margin: 0 auto; width: 80%; height: 80%">
   </esign>
 </section>
 
@@ -296,7 +411,7 @@ footer {
     <a href="https://github.com/eddylily">
       <btn_github>
         <img src="icons/picon_github.png" alt="GitHub" style="display: block; margin: 0 auto; width: 64px; height: 64px">
-        <span style="font-family: 'KintexR'; font-size: 20px;">GitHub</span>
+        <span style="font-family: 'KintexR'; font-size: 18px;">GitHub</span>
       </btn_github>
     </a>
   </span>
@@ -305,7 +420,7 @@ footer {
     <a href="https://twitter.com/eddylily00">
       <btn_twitter>
         <img src="icons/picon_twitter.png" alt="Twitter" style="display: block; margin: 0 auto; width: 64px; height: 64px">
-        <span style="font-family: 'KintexR'; font-size: 20px;">Twitter</span>
+        <span style="font-family: 'KintexR'; font-size: 18px;">Twitter</span>
       </btn_twitter>
     </a>
   </span>
@@ -313,31 +428,89 @@ footer {
   <span>
     <a href="https://blog.edward.moe">
       <btn_blog>
-        <img src="icons/picon_blog.png" alt="Blog" style="display: block; margin: 0 auto; width: 64px; height: 64px">
-        <span style="font-family: 'KintexR'; font-size: 20px;">Blog</span>
+        <img src="icons/picon_blog.png" alt="Blog" style="display: block; margin: 0 auto; width: 80px; height: 80px">
+        <span style="font-family: 'KintexR'; font-size: 18px;">Blog</span>
       </btn_blog>
     </a>
   </span>
 </section>
 
+<edivider></edivider>
+
+<section>
+  <eedu>
+    <span style="font-family: 'KintexR'; font-size: 28px">Education</span></eedu>
+  <eeduline></eeduline>
+  <eeducontents>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://aix.hanyang.ac.kr/">한양대학교 ERICA 인공지능학과 </a></span>
+      <span style="font-family: 'KintexL'; font-size: 18px">학부과정 </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2021. 3. ~ 휴학중</span>
+      <p></p>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="http://8793.io/">8793(스타트업) </a></span>
+      <span style="font-family: 'KintexL'; font-size: 18px">Android 앱 개발 교육 (Java) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2019. 1. ~ 10.</span>
+  </eeducontents>
+</section>
+
 <section>
   <eachs>
-    <span style="font-family: 'KintexR'; font-size: 24px">Achievements</span></eachs>
-  <aline></aline>
+    <span style="font-family: 'KintexR'; font-size: 28px">Achievements</span></eachs>
+  <eachsline></eachsline>
   <eachscontents>
-      <span style="font-family: 'KintexR'; font-size: 16px"><a href="https://www.facebook.com/chungnamckl/posts/1199147050252876">전국 콘텐츠코리아랩 연합 해커톤 대회 </a></span>
-      <span style="font-family: 'KintexL'; font-size: 16px">아이디어상(4등상) </span>
-      <span style="font-family: 'KintexR'; font-size: 16px; color: #9e9e9e;">ー 2019. 01. 23. ~ 25.</span>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://www.facebook.com/chungnamckl/posts/1199147050252876">전국 콘텐츠코리아랩 연합 해커톤 대회 </a></span>
+      <span style="font-family: 'KintexL'; font-size: 18px">아이디어상(4등상) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2019. 1. 23. ~ 25.</span>
       <p></p>
-      <span style="font-family: 'KintexR'; font-size: 16px"><a href="https://www.jlpt.or.kr/index.html">2021년 제2회 일본어능력시험(JLPT) </a></span>
-      <span style="font-family: 'KintexL'; font-size: 16px">N2 </span>
-      <span style="font-family: 'KintexR'; font-size: 16px; color: #9e9e9e;">ー 2022. 01. 13.</span>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://www.jlpt.or.kr/index.html">2021년 제2회 일본어능력시험(JLPT) </a></span>
+      <span style="font-family: 'KintexL'; font-size: 18px">N2 </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2022. 1. 13.</span>
   </eachscontents>
 </section>
 
-<footer>
-  <p>©2009-2022 Yousang Park, Edward*</p>
-</footer>
+<section>
+  <eexps>
+    <span style="font-family: 'KintexR'; font-size: 28px">Toy Projects</span></eexps>
+  <eexpsline></eexpsline>
+  <eexpscontents>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://pjexodus.notion.site/992c999e33d143348c7b47d298d2392b">퇴마묵시록: 돌아온 퇴마사 </a></span>
+      <span style="font-family: 'KintexR'; font-size: 18px; color: #0097a7">(GameMaker™) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2022. 09. ~ 진행중</span><br>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- </span>
+      <span style="font-family: 'KintexR'; font-size: 16px"><a href="https://ko.wikipedia.org/wiki/%ED%95%9C%EC%9E%90%EB%A7%88%EB%A3%A8" style="color: #000000">한자마루</a></span>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">와 세계관을 공유하는 비영리 2차 창작 RPG</span>
+      <br><br>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://github.com/eddylily/absorber">Absorber (Android) </a></span>
+      <span style="font-family: 'KintexR'; font-size: 18px; color: #e64a19">(Java) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2022. 1.</span><br>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">어려운 문제나 아이디어 등을 사진으로 찍어 언제든 열어보고 고민할 수 있는 앱 </span>
+      <br><br>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://github.com/eddylily/WeatherTest-8793">날씨 알림 앱 (Android) </a></span>
+      <span style="font-family: 'KintexR'; font-size: 18px; color: #e64a19">(Java) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2019. 7.</span><br>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- 8793(스타트업)에서 배운 내용을 토대로 만든 앱 </span>
+  </eexpscontents>
+</section>
+
+<section>
+  <epast>
+    <span style="font-family: 'KintexR'; font-size: 28px">Past Activities</span></epast>
+  <epastline></epastline>
+  <epastcontents>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://cafe.naver.com/sangbinkids">초딩들의 컴퓨터 도전기</a></span>
+      <span style="font-family: 'KintexR'; font-size: 18px; color: #388e3c">(네이버 카페) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 카페 부매니저, 2009. 7. ~ </span><br>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- 어린이들의 자유로운 온라인 놀이터 (현재 휴면중)</span>
+      <br><br>
+      <span style="font-family: 'KintexR'; font-size: 18px"><a href="https://github.com/eddylily/GameMaker">클라우드 어드벤처 外 다수</a></span>
+      <span style="font-family: 'KintexR'; font-size: 18px; color: #689f38">(GameMaker 8.0) </span>
+      <span style="font-family: 'KintexR'; font-size: 16px; color: #757575">ー 2010. ~ 2012.</span><br>
+      <span style="font-family: 'KintexL'; font-size: 16px; color: #000000">- 네이버 카페 초딩들의 컴퓨터 도전기 활동 당시에 만든 단순한 게임들</span>
+  </epastcontents>
+</section>
+
+<efooter>
+  <div style="font-family: 'KintexR'; font-size: 18px; color: #757575">©2009-2022 Yousang Park, Edward*</div>
+</efooter>
 
 </body>
 
