@@ -33,10 +33,13 @@
     margin-right: auto;
   }
 
+  html { width: 640px; }
+
   body {
     font-family: 'KintexL', 'KintexR', Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, #FFFFFF 752px, #f8bbd0 1920px);
     color: #000000;
+    width: 640px;
   }
   
   header {
