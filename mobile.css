@@ -203,7 +203,7 @@
     top: 868px;
     left: 8px;
     border-top: 2px solid #757575;
-    width: 400px;
+    width: 384px;
   }
   
   /* * * * * * * * */
@@ -211,7 +211,7 @@
   eedu {
     position: absolute;
     top: 900px;
-    left: 8px;
+    left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
@@ -221,7 +221,7 @@
   eeducontents {
     position: absolute;
     top: 948px;
-    left: 24px;
+    left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
@@ -231,7 +231,7 @@
   eeduline {
     position: absolute;
     top: 948px;
-    left: 8px;
+    left: 0px;
     border-left: thick solid #e91e63;
     height: 128px;
     transform: translate(16px, 8px);
@@ -242,7 +242,7 @@
   eachs {
     position: absolute;
     top: 1116px;
-    left: 8px;
+    left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
@@ -252,7 +252,7 @@
   eachscontents {
     position: absolute;
     top: 1164px;
-    left: 24px;
+    left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
@@ -262,7 +262,7 @@
   eachsline {
     position: absolute;
     top: 1164px;
-    left: 8px;
+    left: 0px;
     border-left: thick solid #e91e63;
     height: 128px;
     transform: translate(16px, 8px);
@@ -273,7 +273,7 @@
   eexps {
     position: absolute;
     top: 1332px;
-    left: 8px;
+    left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
@@ -283,7 +283,7 @@
   eexpscontents {
     position: absolute;
     top: 1380px;
-    left: 24px;
+    left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
@@ -293,7 +293,7 @@
   eexpsline {
     position: absolute;
     top: 1380px;
-    left: 8px;
+    left: 0px;
     border-left: thick solid #e91e63;
     height: 260px;
     transform: translate(16px, 8px);
@@ -304,7 +304,7 @@
   epast {
     position: absolute;
     top: 1680px;
-    left: 8px;
+    left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
@@ -314,7 +314,7 @@
   epastcontents {
     position: absolute;
     top: 1728px;
-    left: 24px;
+    left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
@@ -324,7 +324,7 @@
   epastline {
     position: absolute;
     top: 1728px;
-    left: 8px;
+    left: 0px;
     border-left: thick solid #e91e63;
     height: 212px;
     transform: translate(16px, 8px);
