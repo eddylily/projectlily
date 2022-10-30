@@ -93,7 +93,7 @@
     position: absolute;
     top: 352px;
     left: 48px;
-    width: 480px;
+    width: 400px;
     height: 224px;
     padding-left: 0px;
     padding-right: 16px;
@@ -201,9 +201,9 @@
   edivider {
     position: absolute;
     top: 868px;
-    left: 48px;
+    left: 8px;
     border-top: 2px solid #757575;
-    width: 368px;
+    width: 400px;
   }
   
   /* * * * * * * * */
@@ -211,8 +211,8 @@
   eedu {
     position: absolute;
     top: 900px;
-    left: 16px;
-    width: 416px;
+    left: 8px;
+    width: 400px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -221,8 +221,8 @@
   eeducontents {
     position: absolute;
     top: 948px;
-    left: 32px;
-    width: 416px;
+    left: 24px;
+    width: 400px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -231,7 +231,7 @@
   eeduline {
     position: absolute;
     top: 948px;
-    left: 16px;
+    left: 8px;
     border-left: thick solid #e91e63;
     height: 88px;
     transform: translate(16px, 8px);
@@ -242,8 +242,8 @@
   eachs {
     position: absolute;
     top: 1084px;
-    left: 16px;
-    width: 416px;
+    left: 8px;
+    width: 400px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -252,8 +252,8 @@
   eachscontents {
     position: absolute;
     top: 1132px;
-    left: 32px;
-    width: 416px;
+    left: 24px;
+    width: 400px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -262,7 +262,7 @@
   eachsline {
     position: absolute;
     top: 1132px;
-    left: 16px;
+    left: 8px;
     border-left: thick solid #e91e63;
     height: 88px;
     transform: translate(16px, 8px);
@@ -273,8 +273,8 @@
   eexps {
     position: absolute;
     top: 1268px;
-    left: 16px;
-    width: 416px;
+    left: 8px;
+    width: 400px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -283,8 +283,8 @@
   eexpscontents {
     position: absolute;
     top: 1316px;
-    left: 32px;
-    width: 416px;
+    left: 24px;
+    width: 400px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -293,7 +293,7 @@
   eexpsline {
     position: absolute;
     top: 1316px;
-    left: 16px;
+    left: 8px;
     border-left: thick solid #e91e63;
     height: 216px;
     transform: translate(16px, 8px);
@@ -304,8 +304,8 @@
   epast {
     position: absolute;
     top: 1580px;
-    left: 16px;
-    width: 416px;
+    left: 8px;
+    width: 400px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -314,8 +314,8 @@
   epastcontents {
     position: absolute;
     top: 1628px;
-    left: 32px;
-    width: 416px;
+    left: 24px;
+    width: 400px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -324,7 +324,7 @@
   epastline {
     position: absolute;
     top: 1628px;
-    left: 16px;
+    left: 8px;
     border-left: thick solid #e91e63;
     height: 144px;
     transform: translate(16px, 8px);
@@ -335,8 +335,8 @@
   efooter {
     position: absolute;
     top: 1868px;
-    left: 48px;
-    width: 416px;
+    left: 24px;
+    width: 400px;
     height: 96px;
   }
   
