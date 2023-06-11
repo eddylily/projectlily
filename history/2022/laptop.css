@@ -32,16 +32,15 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   body {
     font-family: 'KintexL', 'KintexR', Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, #FFFFFF 752px, #f8bbd0 1920px);
     color: #000000;
-    width: 640px;
   }
   
   header {
-    height: 96px;
+    height: 128px;
   }
   
   a:link {
@@ -66,8 +65,8 @@
     color: black;
     text-decoration-line: none;
   }
- 
- /*
+  
+  /*
   langchange {
     position: absolute;
     left: 10%;
@@ -78,43 +77,42 @@
   epinkbox {
     position: absolute;
     left: 64px;
-    width: 272px;
-    height: 216px;
-    background: #f8bbd0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 320px;
+    height: 240px;
+    background: #F48FB1;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 22px;
+    padding-bottom: 16px;
   }
   
   ename {
     position: absolute;
-    top: 336px;
-    left: 48px;
-    width: 328px;
+    left: 416px;
+    width: 640px;
     height: 224px;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 16px;
+    padding-top: 20px;
     padding-bottom: 16px;
   }
   
   esign {
     position: absolute;
-    top: 684px;
-    left: 48px;
-    width: 272px;
-    height: 153px;
+    top: 400px;
+    left: 64px;
+    width: 320px;
+    height: 180px;
   }
   
   /* * * * * * * * */
   
   btn_github {
     position: absolute;
-    top: 552px;
-    left: 48px;
-    width: 84px;
-    height: 84px;
+    top: 408px;
+    left: 416px;
+    width: 96px;
+    height: 96px;
     background: #f06292;
     padding: 16px;
     display: block;
@@ -140,10 +138,10 @@
   
   btn_twitter {
     position: absolute;
-    top: 552px;
-    left: 160px;
-    width: 84px;
-    height: 84px;
+    top: 408px;
+    left: 536px;
+    width: 96px;
+    height: 96px;
     background: #f06292;
     padding: 16px;
     display: block;
@@ -169,10 +167,10 @@
   
   btn_blog {
     position: absolute;
-    top: 552px;
-    left: 272px;
-    width: 84px;
-    height: 84px;
+    top: 408px;
+    left: 656px;
+    width: 96px;
+    height: 96px;
     background: #f06292;
     padding: 16px;
     display: block;
@@ -198,19 +196,19 @@
   
   edivider {
     position: absolute;
-    top: 816px;
-    left: 16px;
+    top: 576px;
+    left: 64px;
     border-top: 2px solid #757575;
-    width: 376px;
+    width: 688px;
   }
   
   /* * * * * * * * */
   
   eedu {
     position: absolute;
-    top: 900px;
-    left: 0px;
-    width: 400px;
+    top: 608px;
+    left: 96px;
+    width: 960px;
     height: 32px;
     padding: 16px;
     line-height: 24px;
@@ -218,9 +216,9 @@
   
   eeducontents {
     position: absolute;
-    top: 948px;
-    left: 16px;
-    width: 400px;
+    top: 656px;
+    left: 112px;
+    width: 960px;
     height: 540px;
     padding: 16px;
     line-height: 24px;
@@ -228,10 +226,10 @@
   
   eeduline {
     position: absolute;
-    top: 948px;
-    left: 0px;
+    top: 656px;
+    left: 96px;
     border-left: thick solid #e91e63;
-    height: 128px;
+    height: 88px;
     transform: translate(16px, 8px);
   }
   
@@ -239,30 +237,30 @@
   
   eachs {
     position: absolute;
-    top: 832px;
-    left: 0px;
-    width: 400px;
+    top: 792px;
+    left: 96px;
+    width: 960px;
     height: 32px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eachscontents {
     position: absolute;
-    top: 872px;
-    left: 16px;
-    width: 400px;
+    top: 840px;
+    left: 112px;
+    width: 960px;
     height: 540px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eachsline {
     position: absolute;
-    top: 872px;
-    left: 0px;
+    top: 840px;
+    left: 96px;
     border-left: thick solid #e91e63;
-    height: 86px;
+    height: 88px;
     transform: translate(16px, 8px);
   }
   
@@ -270,30 +268,30 @@
   
   eexps {
     position: absolute;
-    top: 998px;
-    left: 0px;
-    width: 400px;
+    top: 976px;
+    left: 96px;
+    width: 960px;
     height: 32px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eexpscontents {
     position: absolute;
-    top: 1038px;
-    left: 16px;
-    width: 400px;
+    top: 1024px;
+    left: 112px;
+    width: 960px;
     height: 540px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eexpsline {
     position: absolute;
-    top: 1038px;
-    left: 0px;
+    top: 1024px;
+    left: 96px;
     border-left: thick solid #e91e63;
-    height: 70px;
+    height: 216px;
     transform: translate(16px, 8px);
   }
   
@@ -301,30 +299,30 @@
   
   epast {
     position: absolute;
-    top: 1148px;
-    left: 0px;
-    width: 400px;
+    top: 1288px;
+    left: 96px;
+    width: 960px;
     height: 32px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   epastcontents {
     position: absolute;
-    top: 1188px;
-    left: 16px;
-    width: 400px;
+    top: 1336px;
+    left: 112px;
+    width: 960px;
     height: 540px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   epastline {
     position: absolute;
-    top: 1188px;
-    left: 0px;
+    top: 1336px;
+    left: 96px;
     border-left: thick solid #e91e63;
-    height: 136px;
+    height: 144px;
     transform: translate(16px, 8px);
   }
   
@@ -332,9 +330,9 @@
   
   efooter {
     position: absolute;
-    top: 1398px;
-    left: 24px;
-    width: 400px;
+    top: 1576px;
+    left: 96px;
+    width: 640px;
     height: 96px;
   }
   

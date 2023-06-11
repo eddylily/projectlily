@@ -77,44 +77,44 @@
   
   epinkbox {
     position: absolute;
-    left: 64px;
-    width: 272px;
-    height: 216px;
-    background: #f8bbd0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    left: 48px;
+    width: 320px;
+    height: 240px;
+    background: #F48FB1;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 22px;
+    padding-bottom: 16px;
   }
   
   ename {
     position: absolute;
-    top: 336px;
+    top: 352px;
     left: 48px;
-    width: 328px;
+    width: 400px;
     height: 224px;
-    padding-left: 16px;
+    padding-left: 0px;
     padding-right: 16px;
-    padding-top: 16px;
+    padding-top: 20px;
     padding-bottom: 16px;
   }
   
   esign {
     position: absolute;
-    top: 684px;
+    top: 716px;
     left: 48px;
-    width: 272px;
-    height: 153px;
+    width: 320px;
+    height: 180px;
   }
   
   /* * * * * * * * */
   
   btn_github {
     position: absolute;
-    top: 552px;
+    top: 592px;
     left: 48px;
-    width: 84px;
-    height: 84px;
+    width: 96px;
+    height: 96px;
     background: #f06292;
     padding: 16px;
     display: block;
@@ -140,10 +140,10 @@
   
   btn_twitter {
     position: absolute;
-    top: 552px;
+    top: 592px;
     left: 160px;
-    width: 84px;
-    height: 84px;
+    width: 96px;
+    height: 96px;
     background: #f06292;
     padding: 16px;
     display: block;
@@ -169,10 +169,10 @@
   
   btn_blog {
     position: absolute;
-    top: 552px;
+    top: 592px;
     left: 272px;
-    width: 84px;
-    height: 84px;
+    width: 96px;
+    height: 96px;
     background: #f06292;
     padding: 16px;
     display: block;
@@ -198,10 +198,10 @@
   
   edivider {
     position: absolute;
-    top: 816px;
-    left: 16px;
+    top: 868px;
+    left: 8px;
     border-top: 2px solid #757575;
-    width: 376px;
+    width: 384px;
   }
   
   /* * * * * * * * */
@@ -239,30 +239,30 @@
   
   eachs {
     position: absolute;
-    top: 832px;
+    top: 1116px;
     left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eachscontents {
     position: absolute;
-    top: 872px;
+    top: 1164px;
     left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eachsline {
     position: absolute;
-    top: 872px;
+    top: 1164px;
     left: 0px;
     border-left: thick solid #e91e63;
-    height: 86px;
+    height: 128px;
     transform: translate(16px, 8px);
   }
   
@@ -270,30 +270,30 @@
   
   eexps {
     position: absolute;
-    top: 998px;
+    top: 1332px;
     left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eexpscontents {
     position: absolute;
-    top: 1038px;
+    top: 1380px;
     left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   eexpsline {
     position: absolute;
-    top: 1038px;
+    top: 1380px;
     left: 0px;
     border-left: thick solid #e91e63;
-    height: 70px;
+    height: 260px;
     transform: translate(16px, 8px);
   }
   
@@ -301,30 +301,30 @@
   
   epast {
     position: absolute;
-    top: 1148px;
+    top: 1680px;
     left: 0px;
     width: 400px;
     height: 32px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   epastcontents {
     position: absolute;
-    top: 1188px;
+    top: 1728px;
     left: 16px;
     width: 400px;
     height: 540px;
     padding: 16px;
-    line-height: 16px;
+    line-height: 24px;
   }
   
   epastline {
     position: absolute;
-    top: 1188px;
+    top: 1728px;
     left: 0px;
     border-left: thick solid #e91e63;
-    height: 136px;
+    height: 212px;
     transform: translate(16px, 8px);
   }
   
@@ -332,7 +332,7 @@
   
   efooter {
     position: absolute;
-    top: 1398px;
+    top: 2016px;
     left: 24px;
     width: 400px;
     height: 96px;
